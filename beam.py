@@ -21,9 +21,8 @@ bIn4 = float(input())
 a = simply
 b = 'udl'
 
-ResAna = getattr(a, b)(bIn2a, bIn4)
-print(ResAna)
+moment, shear = getattr(a, b)(bIn2a, bIn4)
 
-# print('Moment = ' + ResAna(0) + '[kNm]')
-# print('Shear = ' + ResAna(1) + '[kN]')
+print('Moment = ' + moment + '[kNm]')
+print('Shear = ' + shear + '[kN]')
 
