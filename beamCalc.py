@@ -1,7 +1,9 @@
 # Date: 170114
 # Write the first program to calculate moment, shear and deflection of a beam
-import beamSimply           # Import the function to calculate simply supported structure
-import sectionGeometry      # Import the function to calculate Section Properties of the section
+import beamSimply
+import beamCantilever
+import beamFixed
+import sectionGeometry
 
 # ----------------------------------------------------------------------------------------------------------------------
 # Input the type of beam and span length
